@@ -1,0 +1,53 @@
+
+> store@1.0.0 build
+> next build
+
+   ▲ Next.js 15.5.20
+   - Environments: .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 6.6s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/21) ...
+   Generating static pages (5/21) 
+   Generating static pages (10/21) 
+   Generating static pages (15/21) 
+ ✓ Generating static pages (21/21)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ƒ /                                      175 B         111 kB
+├ ○ /_not-found                            986 B         104 kB
+├ ○ /about                                 484 B         108 kB
+├ ƒ /api/apply-coupon                      150 B         103 kB
+├ ƒ /api/contact                           150 B         103 kB
+├ ƒ /api/create-order                      150 B         103 kB
+├ ƒ /api/products                          150 B         103 kB
+├ ƒ /api/subscribe                         150 B         103 kB
+├ ƒ /api/track                             150 B         103 kB
+├ ƒ /api/verify-payment                    150 B         103 kB
+├ ○ /cart                                7.16 kB         118 kB
+├ ○ /checkout                            7.88 kB         110 kB
+├ ○ /contact                              5.1 kB         108 kB
+├ ○ /faq                                   150 B         103 kB
+├ ○ /login                               2.94 kB         145 kB
+├ ○ /order-confirmation                  1.25 kB         107 kB
+├ ○ /privacy-policy                        150 B         103 kB
+├ ○ /refund-policy                         150 B         103 kB
+├ ○ /register                            2.51 kB         145 kB
+├ ○ /shipping-policy                       150 B         103 kB
+├ ƒ /shop                                  175 B         111 kB
+├ ƒ /shop/[slug]                         3.19 kB         114 kB
+├ ○ /terms-of-service                      150 B         103 kB
+└ ○ /track                               5.56 kB         108 kB
++ First Load JS shared by all             103 kB
+  ├ chunks/18-7be73bec2ceaa744.js        46.3 kB
+  ├ chunks/87c73c54-24122e7b92478d00.js  54.2 kB
+  └ other shared chunks (total)          1.99 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,63 @@
+
+> admin@1.0.0 build
+> next build
+
+   ▲ Next.js 15.5.20
+   - Environments: .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 5.1s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/19) ...
+   Generating static pages (4/19) 
+   Generating static pages (9/19) 
+   Generating static pages (14/19) 
+ ✓ Generating static pages (19/19)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    2.22 kB         113 kB
+├ ○ /_not-found                            986 B         104 kB
+├ ○ /analytics                           1.56 kB         109 kB
+├ ƒ /api/auth/change-password              164 B         103 kB
+├ ƒ /api/auth/login                        164 B         103 kB
+├ ƒ /api/auth/logout                       164 B         103 kB
+├ ƒ /api/auth/me                           164 B         103 kB
+├ ƒ /api/coupons                           164 B         103 kB
+├ ƒ /api/coupons/[id]                      164 B         103 kB
+├ ƒ /api/customers                         164 B         103 kB
+├ ƒ /api/dashboard                         164 B         103 kB
+├ ƒ /api/inbox                             164 B         103 kB
+├ ƒ /api/inventory                         164 B         103 kB
+├ ƒ /api/orders                            164 B         103 kB
+├ ƒ /api/orders/[id]                       164 B         103 kB
+├ ƒ /api/orders/[id]/label-preview         164 B         103 kB
+├ ƒ /api/orders/[id]/ship                  164 B         103 kB
+├ ƒ /api/products                          164 B         103 kB
+├ ƒ /api/products/[id]                     164 B         103 kB
+├ ƒ /api/subscribers                       164 B         103 kB
+├ ƒ /api/upload                            164 B         103 kB
+├ ○ /coupons                             3.86 kB         106 kB
+├ ○ /customers                           2.65 kB         105 kB
+├ ○ /inbox                               2.21 kB         105 kB
+├ ○ /inventory                           3.18 kB         106 kB
+├ ○ /login                               1.59 kB         104 kB
+├ ○ /orders                              3.05 kB         109 kB
+├ ƒ /orders/[id]                         3.17 kB         114 kB
+├ ○ /products                            8.46 kB         114 kB
+├ ƒ /products/[id]                       3.01 kB         109 kB
+├ ○ /products/new                        2.96 kB         109 kB
+└ ○ /settings                            1.14 kB         104 kB
++ First Load JS shared by all             103 kB
+  ├ chunks/18-7be73bec2ceaa744.js        46.3 kB
+  ├ chunks/87c73c54-24122e7b92478d00.js  54.2 kB
+  └ other shared chunks (total)          1.99 kB
+
+
+ƒ Middleware                             39.7 kB
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
