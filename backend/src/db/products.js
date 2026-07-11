@@ -9,7 +9,7 @@ async function getAllProducts(includeInactive = false) {
       const list = [];
       snapshot.forEach(doc => {
         const data = doc.data();
-        if (includeInactive || data.is_active === 1) {
+        if (includeInactive || data.is_active === 1 || data.is_active === true || data.is_active === '1') {
           list.push({ ...data, id: doc.id });
         }
       });
