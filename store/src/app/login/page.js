@@ -49,8 +49,8 @@ export default function CustomerLoginPage() {
       await loginWithGoogle();
       router.push('/shop');
     } catch (err) {
-      console.error(err);
-      setError('Google login was cancelled or failed.');
+      console.error("Google Auth Failure Details:", err);
+      setError(err.message || 'Google login was cancelled or failed.');
     } finally {
       setLoading(false);
     }
